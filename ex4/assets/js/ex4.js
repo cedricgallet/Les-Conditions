@@ -12,6 +12,6 @@ if (Note >= 0 && Note <= 3) {
 } else if (Note > 8 && Note <= 9) {
     alert("Bien");
 
-} else if (Note == 10) {
+} else {
     alert("Exellent");
 }

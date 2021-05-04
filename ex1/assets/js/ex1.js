@@ -1,5 +1,5 @@
 let number=77;
-    if(77>21){
+    if(number>21){
         alert("vrai");
     }else{
         alert("faux");

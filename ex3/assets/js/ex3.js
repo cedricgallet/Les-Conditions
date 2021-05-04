@@ -1,8 +1,6 @@
-let Number=prompt("Choisissez un nombre?");
-if ((Number/2)*2 != Number){
+let Number = parseInt (prompt("Choisissez un nombre?"));
+if (Number % 2 == 0) {
     alert("Le nombre est pair");
-}else{
+} else {
     alert("Le nombre est impair");
 }
-
-  
